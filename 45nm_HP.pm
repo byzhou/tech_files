@@ -1,7 +1,7 @@
 * PTM High Performance 45nm Metal Gate / High-K / Strained-Si
 * nominal Vdd = 1.0V
 
-.model  nmos  nmos  level = 54
+.model  NMOS_VTL  NMOS_VTL  level = 54
 
 +version = 4.0             binunit = 1               paramchk= 1               mobmod  = 0             
 +capmod  = 2               igcmod  = 1               igbmod  = 1               geomod  = 1             
@@ -71,7 +71,7 @@
 
 
 
-.model  pmos  pmos  level = 54
+.model  PMOS_VTL  PMOS_VTL  level = 54
 
 +version = 4.0             binunit = 1               paramchk= 1               mobmod  = 0             
 +capmod  = 2               igcmod  = 1               igbmod  = 1               geomod  = 1             
